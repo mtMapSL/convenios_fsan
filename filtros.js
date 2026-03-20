@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   const provinciaButtons = document.querySelectorAll(".provincia-filtro[data-provincia]");
   const estadoButtons = document.querySelectorAll(".leyenda-estados [data-estado]");
   const sectorButtons = document.querySelectorAll(".leyenda-sectores [data-sector]");
+  const estadoEtiquetas = document.querySelectorAll(".provincia li .estado");
 
   const secciones = Array.from(document.querySelectorAll(".container > h2[id]"))
     .map(titulo => {
@@ -121,6 +122,33 @@ document.addEventListener("DOMContentLoaded", async function () {
       aplicarFiltros();
     });
   });
+  
+  estadoEtiquetas.forEach(etiqueta => {
+  etiqueta.addEventListener("click", function (event) {
+    event.preventDefault();
+    event.stopPropagation();
+
+    let estado = "";
+
+    if (this.classList.contains("vigente")) estado = "vigente";
+    else if (this.classList.contains("negociacion")) estado = "negociacion";
+    else if (this.classList.contains("bloqueado")) estado = "bloqueado";
+    else if (this.classList.contains("ultraactividad")) estado = "ultraactividad";
+    else if (this.classList.contains("caducado")) estado = "caducado";
+
+    if (!estado) return;
+
+    filtrosEstado.clear();
+    filtrosEstado.add(estado);
+
+    aplicarFiltros();
+
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+});
 
   sectorButtons.forEach(btn => {
     btn.addEventListener("click", function () {
