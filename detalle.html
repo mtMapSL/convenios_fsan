@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalle del convenio</title>
+  <meta name="description" content="Detalle de convenio colectivo">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a aria-label="Volver arriba" class="volver-arriba" href="#">↑</a>
+
+<div class="container detalle-page">
+
+  <img src="img/ccoo.png" class="logo" alt="CCOO Servicios Andalucía">
+
+  <a href="convenios.html" class="volver-listado">← Volver al listado</a>
+  
+  <p class="detalle-kicker" id="detalleProvinciaSector"></p>
+
+  <header class="detalle-hero">
+    <div class="detalle-hero-texto">
+      <h2 id="detalleTitulo">Detalle del convenio</h2>
+      <div class="detalle-hero-meta">
+        <span class="estado" id="detalleEstado" hidden></span>
+      </div>
+    </div>
+  </header>
+
+  <section class="detalle-resumen-grid" id="detalleResumen">
+    <div class="detalle-card">
+      <h3>Código</h3>
+      <p id="metaCodigo">—</p>
+    </div>
+
+<!--     <div class="detalle-card">
+      <h3>Ámbito</h3>
+      <p id="metaAmbito">—</p>
+    </div>
+
+    <div class="detalle-card">
+      <h3>Área</h3>
+      <p id="metaArea">—</p>
+    </div> -->
+
+    <div class="detalle-card">
+      <h3>Vigencia</h3>
+      <p id="metaVigencia">—</p>
+    </div>
+
+    <div class="detalle-card">
+      <h3>Duración</h3>
+      <p id="metaDuracion">—</p>
+    </div>
+
+    <div class="detalle-card">
+      <h3>Publicación</h3>
+      <p id="metaPublicacion">—</p>
+    </div>
+  </section>
+
+  <section class="detalle-tabs-wrap">
+    <div class="detalle-tabs" id="detalleTabs" role="tablist" aria-label="Apartados del convenio"></div>
+
+    <div class="detalle-tab-panel" id="detallePanel">
+      <p class="detalle-empty">Selecciona un apartado.</p>
+    </div>
+  </section>
+
+</div>
+
+<script src="detalle.js"></script>
+</body>
+<footer class="footer">
+  <p>
+    ¿Alguna incidencia o sugerencia? Escríbenos a
+    <a href="mailto:ticandalucia@servicios.ccoo.es">
+      ticandalucia@servicios.ccoo.es
+    </a>
+  </p>
+</footer>
+</html>

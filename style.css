@@ -1,0 +1,601 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  color: #222;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1155px;
+  width: 92%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 40px;
+  box-sizing: border-box;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 30px;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  font-size: 42px;
+  margin: 0 0 14px;
+}
+
+.intro {
+  text-align: center;
+  color: #666;
+  margin: 0 0 28px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h2 {
+  margin: 50px 0 20px;
+  font-size: 28px;
+  color: #111;
+}
+
+.indice-provincias,
+.leyenda-estados,
+.leyenda-sectores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 14px;
+  margin-bottom: 16px;
+}
+
+.indice-provincias button,
+.leyenda-estados button,
+.leyenda-sectores button {
+  font: inherit;
+  cursor: pointer;
+}
+
+.provincia-filtro,
+.estado-item,
+.sector-item {
+  border: 1px solid #d9d9d9;
+  border-radius: 999px;
+  background: #fafafa;
+  padding: 8px 16px;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.provincia-filtro {
+  color: #d40000;
+  font-weight: 600;
+}
+
+.provincia-filtro:hover,
+.provincia-filtro.activo {
+  background: #d40000;
+  color: #fff;
+  border-color: #d40000;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(212, 0, 0, 0.16);
+}
+
+.estado-item,
+.sector-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #333;
+  background: #fff;
+}
+
+.estado-item:hover,
+.estado-item.activo,
+.sector-item:hover,
+.sector-item.activo {
+  transform: translateY(-1px);
+  border-color: #222;
+  background: #f7f7f7;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+.provincia-filtro:focus-visible,
+.estado-item:focus-visible,
+.sector-item:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(212, 0, 0, 0.16);
+}
+
+.badge {
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  display: inline-block;
+  flex: 0 0 14px;
+}
+
+.badge.vigente { background: #2e7d32; }
+.badge.negociacion { background: #1976d2; }
+.badge.ultra { background: #f5a623; }
+.badge.caducado { background: #777; }
+.badge.bloqueado { background: #c62828; }
+
+.andalucia,
+.provincia {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.mapa,
+.provincia img {
+  flex: 0 0 350px;
+}
+
+.mapa img,
+.provincia img {
+  width: 100%;
+  max-width: 350px;
+  height: 230px;
+  object-fit: contain;
+  display: block;
+}
+
+.convenios ul,
+.provincia ul {
+  color: #d40000;
+  line-height: 1.45;
+  margin: 0;
+  padding-left: 24px;
+}
+
+.convenios li,
+.provincia li {
+  margin-bottom: 0;
+  padding: 2px 0;
+  border-radius: 6px;
+  transition: background 0.15s ease;
+}
+
+.convenios li:hover,
+.provincia li:hover {
+  background: #fafafa;
+}
+
+.convenios ul a,
+.provincia ul a {
+  color: #d40000;
+  text-decoration: none;
+}
+
+.convenios ul a:hover,
+.provincia ul a:hover {
+  text-decoration: underline;
+}
+
+.estado {
+  color: #fff;
+  font-size: 11px;              
+  font-weight: 600;             
+  padding: 4px 8px;             
+  margin-left: 8px;
+  border-radius: 999px;         
+  display: inline-flex;         
+  align-items: center;          
+  line-height: 1;               
+  letter-spacing: 0.03em;       
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.estado::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.9);
+  margin-right: 6px;
+}
+
+.estado.vigente { background: #2e7d32; }
+.estado.negociacion { background: #1976d2; }
+.estado.ultraactividad { background: #f5a623; }
+.estado.caducado { background: #666; }
+
+.estado.bloqueado {
+  background: #c62828;
+  color: #fff;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.05);
+}
+
+/* .provincia li.caducado {
+  color: #777;
+} */
+
+/* .provincia li.caducado .texto-caducado {
+  text-decoration: line-through;
+} */
+
+.volver-arriba {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: #d40000;
+  color: white;
+  font-size: 22px;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 50%;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+  transition: background 0.2s;
+  z-index: 1000;
+}
+
+.volver-arriba:hover {
+  background: #a80000;
+}
+
+@media (max-width: 900px) {
+  .container {
+    padding: 24px;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .andalucia,
+  .provincia {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .mapa,
+  .provincia img,
+  .mapa img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    flex: none;
+  }
+
+  .indice-provincias,
+  .leyenda-estados,
+  .leyenda-sectores {
+    justify-content: flex-start;
+  }
+
+  .provincia-filtro,
+  .estado-item,
+  .sector-item {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+}
+.oculto { display: none !important; }
+
+
+.provincia li,
+.convenios li {
+  padding: 6px 4px;
+}
+
+.convenio-cabecera {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: nowrap; /* evita salto de la etiqueta */
+}
+
+.convenio-cabecera a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.convenio-cabecera > a,
+.convenio-cabecera > .texto-caducado {
+  margin-right: 2px;
+}
+
+.convenio-acciones {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.icono-accion {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #111;
+  cursor: pointer;
+  line-height: 1;
+  border-radius: 6px;
+  transition: transform 0.18s ease, background-color 0.18s ease, color 0.18s ease;
+}
+
+.icono-accion svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+.icono-accion:hover,
+.icono-accion:focus-visible {
+  color: #000;
+  background-color: rgba(0, 0, 0, 0.06);
+  transform: scale(1.12);
+  outline: none;
+}
+
+.convenio-cabecera .estado {
+  margin-left: 2px;
+}
+
+@media (max-width: 900px) {
+  .convenio-cabecera {
+    gap: 7px;
+  }
+
+  .icono-accion {
+    width: 21px;
+    height: 21px;
+  }
+
+  .icono-accion svg {
+    width: 17px;
+    height: 17px;
+  }
+}
+
+
+/* ===== detalle.html ===== */
+
+.detalle-page {
+  max-width: 1180px;
+}
+
+.volver-listado {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #d40000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.volver-listado:hover {
+  text-decoration: underline;
+}
+
+.detalle-hero {
+  margin-bottom: 24px;
+}
+
+.detalle-kicker {
+  margin: 0 0 8px 0;
+  color: #666;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.detalle-hero-texto h1 {
+  text-align: left;
+  margin: 0 0 8px 0;
+}
+
+.detalle-hero-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.detalle-resumen-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 6px;
+  margin-bottom: 30px;
+}
+
+.detalle-card {
+  background: #fafafa;
+  border: 1px solid #e4e4e4;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.detalle-card h3 {
+  margin: 0 0 8px 0;
+  font-size: 15px;
+  color: #444;
+}
+
+.detalle-card p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.45;
+  color: #111;
+  word-break: break-word;
+}
+
+.detalle-tabs-wrap {
+  margin-top: 10px;
+}
+
+.detalle-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.detalle-tab {
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid #d9d9d9;
+  border-radius: 999px;
+  background: #fafafa;
+  color: #333;
+  padding: 8px 16px;
+  transition: all 0.2s ease;
+}
+
+.detalle-tab:hover {
+  transform: translateY(-1px);
+  background: #f7f7f7;
+  border-color: #222;
+}
+
+.detalle-tab.activa {
+  background: #d40000;
+  color: #fff;
+  border-color: #d40000;
+  box-shadow: 0 3px 8px rgba(212, 0, 0, 0.16);
+}
+
+.detalle-tab-panel {
+  border: 1px solid #e4e4e4;
+  border-radius: 14px;
+  padding: 24px;
+  background: #fff;
+}
+
+.detalle-item + .detalle-item,
+.detalle-subsection + .detalle-item,
+.detalle-item + .detalle-subsection,
+.detalle-subsection + .detalle-subsection {
+  margin-top: 22px;
+}
+
+.detalle-item h3,
+.detalle-subsection h3 {
+  margin: 0 0 8px 0;
+  font-size: 22px;
+  color: #111;
+}
+
+.detalle-item h4 {
+  margin: 0 0 6px 0;
+  font-size: 17px;
+  color: #444;
+}
+
+.detalle-item p {
+  margin: 0;
+  color: #333;
+  line-height: 1.7;
+  white-space: pre-line;
+}
+
+.detalle-subsection {
+  padding-top: 6px;
+}
+
+.detalle-subsection .detalle-item {
+  margin-top: 14px;
+}
+
+.detalle-empty {
+  margin: 0;
+  color: #666;
+  font-size: 16px;
+}
+
+@media (max-width: 900px) {
+  .detalle-resumen-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .detalle-hero-texto h1 {
+    font-size: 34px;
+  }
+
+  .detalle-item h3,
+  .detalle-subsection h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 560px) {
+  .detalle-resumen-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .detalle-tab-panel {
+    padding: 18px;
+  }
+}
+
+/* --- BLOQUE VISUAL POR PROVINCIA --- */
+.provincia {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 40px;
+
+  background: #ffffff;
+  border: 1px solid #e4e4e4;
+  border-radius: 14px;
+  padding: 24px;
+
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.container h2 {
+  margin: 28px 0 12px;
+  font-size: 28px;
+  color: #111;
+}
+
+/* #detalleTitulo {
+  text-align: center;
+} */
+
+
+.provincia ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+.footer {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+  border-top: 1px solid #e4e4e4;
+  background: #fafafa;
+}
+
+.footer a {
+  color: #cc0000;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
