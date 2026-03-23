@@ -65,7 +65,9 @@ document.addEventListener("DOMContentLoaded", async function () {
 	seguridad_y_salud_laboral: "Seguridad y salud laboral",
 	antiguedad: "Antigüedad",
 	plus_transporte: "Plus de transporte",
-	plus_distancia: "Plus de distancia"
+	plus_distancia: "Plus de distancia",
+	adaptacion_horario: "Adaptación de horario",
+	proteccion_personal_sensible: "Protección del personal sensible"
   };
 
   const params = new URLSearchParams(window.location.search);
@@ -340,7 +342,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   // Metadatos superiores
   const vigenciaTexto =
-    convenio?.detalle?.normas_generales?.vigencia_duracion ||
+    convenio?.detalle?.vigencia_duracion ||
     convenio.vigencia_duracion ||
     convenio.vigencia ||
     "";

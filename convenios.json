@@ -196,40 +196,33 @@
     "subsector_literal": "(4) REST. CAFETERIAS Y BARES",
     "denominacion": "HOSTELERIA",
     "nombre_html": "Hostelería",
+	"vigencia_duracion": "2024-2026 (01/01/2024 a 31/12/2026).",
 	"publicacion": "04/10/2024",
 	"publicacion_diario": "BOP 192",
     "detalle": {
-      "normas_generales": {
+      "normas_grales.": {
         "denominacion": "Convenio Colectivo para el Sector de Hostelería de la Provincia de Córdoba",
+		"ambito_territorial": "Aplicación en toda la provincia de Córdoba, cualquiera que sea el domicilio social de la empresa.",
         "ambito_funcional": "Empresas, establecimientos, instalaciones y empresarios cuya actividad, permanente u ocasional, total o parcial, esté afectada por el ámbito funcional del Acuerdo Laboral Estatal de Hostelería. Incluye clubes sociales y deportivos y, si no hay impedimento legal, viviendas turísticas y apartamentos con servicios hosteleros.",
-        "vigencia_duracion": "2024-2026 (01/01/2024 a 31/12/2026).",
+        "ambito_personal": "Afecta a todo el personal de las actividades incluidas. Se aplica también al personal de pisos, restaurante, bar, cocina y recepción, incluso en contratas o subcontratas, con obligación de respetar el convenio.",
         "prorroga": "Se prorroga de año en año salvo denuncia expresa de cualquiera de las partes legitimadas.",
         "denuncia": "Antelación mínima de 2 meses.",
-        "ultractividad": "Sí. Denunciado el convenio, permanecerá vigente hasta que se acuerde uno nuevo.",
-        "clausula_descuelgue": "Art. 82.3 ET. Posible inaplicación por causas económicas, técnicas, organizativas o de producción, con información a la Comisión Paritaria y recurso al SERCLA en caso de desacuerdo.",
-        "comision_paritaria": "4 personas: 2 de la representación empresarial (HOSTECOR y AEHCOR) y 2 de la representación sindical (UGT y CC.OO.).",
+        "ultraactividad": "Sí. Denunciado el convenio, permanecerá vigente hasta que se acuerde uno nuevo.",
+		"compensacion_absorcion": "Las mejoras homogéneas podrán ser compensadas y absorbidas. Las mejoras adquiridas en subrogación percibidas durante más de 2 años se consolidan en su valor. Se garantiza que la aplicación del convenio no suponga una reducción salarial global.",
+		"clausula_descuelgue": "Art. 82.3 ET. Posible inaplicación por causas económicas, técnicas, organizativas o de producción, con información a la Comisión Paritaria y recurso al SERCLA en caso de desacuerdo.",
+		"comision_paritaria": "Órgano de interpretación, vigilancia y mediación del convenio, compuesto por 4 miembros: 2 de la representación empresarial (HOSTECOR y AEHCOR) y 2 de la representación sindical (UGT y CC.OO.).",
         "mediacion_arbitraje": "SERCLA y, en su caso, Consejo Andaluz de Relaciones Laborales."
       },
       "jornada": {
         "jornada": "40 horas semanales. Entre el final de una jornada y el comienzo de la siguiente deben transcurrir 12 horas como mínimo. La jornada podrá partirse una única vez con una interrupción mínima de 2 horas.",
-        "flexibilidad": "Flexibilización de la jornada durante 8 semanas al año, con un máximo de 30 días de trabajo efectivo, 10 horas diarias y 50 horas semanales. Preaviso mínimo de 6 días. La compensación del exceso se realizará en un plazo de 3 meses.",
-        "jornd_especiales_festivos": "Los festivos trabajados podrán disfrutarse como descanso en período distinto al de vacaciones, acumularse a vacaciones o disfrutarse en otros días. Si coinciden con descanso semanal se compensarán. Si se disfrutan de forma continuada, por cada 5 festivos trabajados se concederán 2 días más de descanso. Si se disfrutan de forma continuada todos los festivos, se concederán 6 días de descanso.",
+        "flexibilidad": "Distribución irregular de la jornada durante 8 semanas al año, con un máximo de 30 días de trabajo efectivo, 10 horas diarias y 50 horas semanales. Preaviso mínimo de 6 días. La compensación del exceso se realizará en un plazo de 3 meses.",
+		"jornd_especiales_festivos": "Los festivos trabajados podrán disfrutarse como descanso en período distinto al de vacaciones, acumularse a vacaciones o disfrutarse en otros días. Si coinciden con descanso semanal se compensarán. Si se disfrutan de forma continuada, por cada 5 festivos trabajados se concederán 2 días más de descanso. Si se disfrutan de forma continuada todos los festivos, se concederán 6 días de descanso.",
         "descanso_bocadillo": "20 minutos durante la jornada, computables y abonables como tiempo de trabajo efectivo.",
         "descanso_semanal": "Mínimo de 2 días naturales dentro de la misma semana. Al menos una vez cada 4 semanas, el descanso semanal incluirá sábado y domingo, salvo en empresas que cierren dos días por descanso del personal.",
-        "vacaciones": "31 días naturales. Podrán disfrutarse en un solo periodo o en dos, con un máximo del 60% y un mínimo del 40%. Por acuerdo, el 60% podrá disfrutarse entre el 1 de junio y el 30 de septiembre y el 40% restante en el resto del año.",
-        "asuntos_propios": "1 día al año, para trabajadores con más de 6 meses de contratación en la empresa. Preaviso mínimo de 72 horas.",
-        "permisos_retribuidos": {
-		  "matrimonio": "15 días naturales por matrimonio o constitución de pareja de hecho. 2 días por matrimonio de hijo, hermano, padre o madre. En caso de desplazamiento, 2 días más.",
-          "nacimiento": "4 días por nacimiento, adopción o acogimiento. En partos múltiples, 2 días más por hijo.",
-          "fallecimiento": "4 días por fallecimiento de hijos, cónyuge, ascendientes o persona conviviente; 2 días por parientes hasta 2º grado.",
-          "accidente_enfermedad_grave_hospitalizacion_intervencion_quirurgica": "5 días por accidente, enfermedad grave, hospitalización o intervención quirúrgica con o sin hospitalización que precise reposo domiciliario, de parientes hasta 2º grado, familiar consanguíneo de la pareja de hecho o conviviente que requiera cuidado efectivo. Esta licencia se podrá ejercer a lo largo de todo el hecho causante de forma continua o interrumpida por días completos.",
-          "mudanza_traslado": "2 días por traslado del domicilio habitual.",
-          "examenes": "Por el tiempo indispensable para la asistencia a exámenes reglados.",
-          "consulta_medica": "Por el tiempo preciso y con justificación, cuando por razón de enfermedad el trabajador precise asistencia a consultorio médico en horas coincidentes con su jornada laboral."
-        }
+        "vacaciones": "31 días naturales. Podrán disfrutarse en un solo periodo o en dos, con un máximo del 60% y un mínimo del 40%. Por acuerdo, el 60% podrá disfrutarse entre el 1 de junio y el 30 de septiembre y el 40% restante en el resto del año."
       },
       "empleo": {
-        "fomento_empleo": "En empresas de 1 a 3 trabajadores, al menos 1 deberá ser fijo. De 4 a 20 trabajadores, al menos el 30%; de 21 a 30, el 35%; de 31 a 50, el 40%; y de más de 50, el 50% deberán ser fijos o de plantilla. Las fracciones desde 0,5 computan como un trabajador más. No se aplicará en empresas de nueva creación durante el primer año.",
+		"fomento_empleo": "En empresas de 1 a 3 trabajadores, al menos 1 deberá ser fijo. De 4 a 20 trabajadores, al menos el 30%; de 21 a 30, el 35%; de 31 a 50, el 40%; y de más de 50, el 50% deberán ser fijos o de plantilla. Las fracciones desde 0,5 computan como un trabajador más. No se aplicará en empresas de nueva creación durante el primer año. Se priorizará la contratación de personal con vinculación previa con la empresa o formación en el sector.",
         "contratacion": {
           "indefinidos": "",
           "tiempo_parcial": "La jornada deberá constar en el contrato. Jornada mínima de 2 horas diarias y no podrá fraccionarse una jornada inferior a 4 horas diarias. Horas complementarias con un máximo del 55% de las horas contratadas y hasta un 30% adicional voluntario en contratos indefinidos a tiempo parcial.",
@@ -238,7 +231,7 @@
           "discontinuos": "Trabajos fijos y periódicos de carácter discontinuo. Llamamiento con preaviso mínimo de 15 días. Se regulan garantías de ocupación, condiciones de llamamiento, vacaciones y preferencia para ocupar puestos a tiempo completo o ampliar jornada.",
           "discapacidad": "En empresas de 50 o más trabajadores, al menos el 2% de la plantilla deberá ser personal con discapacidad. Podrá cumplirse mediante contratación directa o medidas alternativas previstas legalmente.",
           "formacion": "Contratos formativos según ALEH. No podrán realizar trabajo a turnos ni nocturno. Número máximo según plantilla del centro: de 1 a 5 trabajadores, 1 contrato; de 6 a 10, 2; de 11 a 25, 3; de 26 a 40, 4; de 41 a 50, 5; de 51 en adelante, 8.",
-          "etts": "La representación legal de los trabajadores tendrá derecho a recibir copia básica del contrato u orden de servicio del personal de ETT o de servicios externos, así como documentación acreditativa de obligaciones salariales y de Seguridad Social."
+		  "etts": "La representación legal de las personas trabajadoras tendrá derecho a recibir copia básica del contrato u orden de servicio del personal de ETT o de servicios externos, así como documentación acreditativa de obligaciones salariales y de Seguridad Social. La persona trabajadora recibirá copia del contrato en 15 días y en la firma podrá estar presente la RLPT."
         },
         "preaviso_cese": "20 días para la extinción de la relación laboral por ambas partes, salvo sanción disciplinaria o despido.",
         "vacantes_ascensos": "",
@@ -249,51 +242,60 @@
         "formacion_profesional": "La formación se reconoce como derecho de las personas trabajadoras y deber de las empresas. La Comisión Paritaria asume funciones en materia de formación. Los trabajadores con más de un año de antigüedad tendrán derecho a 20 horas anuales retribuidas de formación profesional para el empleo, acumulables por periodos de cinco años.",
         "clasificacion_profesional": "Según el Acuerdo Laboral Estatal de Hostelería (ALEH) vigente en cada momento."
       },
+	  "perm._y_exced.": {
+		  "permisos_retribuidos":{
+			  "asuntos_propios": "1 día al año, para trabajadores con más de 6 meses de contratación en la empresa. Preaviso mínimo de 72 horas.",
+			  "matrimonio": "15 días naturales por matrimonio o pareja de hecho. 2 días por matrimonio de hijo, hermano, padre o madre (+2 días por desplazamiento).",
+			  "nacimiento": "4 días por nacimiento, adopción o acogimiento. En partos múltiples, 2 días más por hijo (+2 días por desplazamiento).",
+			  "fallecimiento": "4 días por fallecimiento de hijos, cónyuge, ascendientes o conviviente; 2 días por parientes hasta 2º grado (+2 días por desplazamiento).",
+			  "accidente_enfermedad_grave_hospitalizacion_intervencion_quirurgica": "5 días por accidente, enfermedad grave, hospitalización o intervención quirúrgica, con hospitalización o sin ella precisando reposo domiciliario, de parientes hasta 2º grado, familiar consanguíneo de la pareja de hecho o conviviente que requiera cuidado efectivo. Esta licencia se podrá ejercer a lo largo de todo el hecho causante de forma continua o interrumpida por días completos (+2 días por desplazamiento).",
+			  "mudanza_traslado": "2 días por traslado del domicilio habitual. En traslados con cambio de residencia, la empresa abonará gastos de traslado, mudanza y dos primeros meses de alquiler.",
+			  "examenes": "Por el tiempo indispensable para la asistencia a exámenes reglados.",
+			  "consulta_medica": "Por el tiempo preciso y con justificación, cuando por razón de enfermedad el trabajador precise asistencia a consultorio médico en horas coincidentes con su jornada laboral.",
+			  "lactancia": "1 hora diaria de ausencia hasta los 9 meses del menor, con posibilidad de reducción de jornada o acumulación en jornadas completas.",
+			  "prematuros_hospitalizados": "1 hora de ausencia en caso de nacimiento de hijos prematuros o que deban permanecer hospitalizados tras el parto."
+		  },
+		  "excedencias":{
+			  "excedencias_por_motivos_familiares": "Según lo previsto en el Estatuto de los Trabajadores.",
+			  "excedencias_voluntarias": "Según lo previsto en el Estatuto de los Trabajadores."
+		  },
+		  "reduccion_jornada": "Derecho a reducción de jornada por guarda legal de menor de 12 años o persona con discapacidad, entre un octavo y la mitad de la jornada. También por cuidado de menor con enfermedad grave y en casos de nacimiento de hijos prematuros u hospitalizados.",
+          "guarda_legal": "Reducción de jornada por cuidado de menor de 12 años o persona con discapacidad, entre un octavo y la mitad de la jornada, con disminución proporcional del salario."
+        },
       "igualdad": {
-        "flexibilidad_horaria": "Posibilidad de flexibilizar la jornada laboral durante 8 semanas al año, con un máximo de 10 horas diarias y 50 horas semanales, con preaviso y compensación conforme al convenio.",
-        "reduccion_jornada": "Derecho a reducción de jornada por guarda legal de menor de 12 años o persona con discapacidad, entre un octavo y la mitad de la jornada. También por cuidado de menor con enfermedad grave y en casos de nacimiento de hijos prematuros u hospitalizados.",
-        "lactancia": "Derecho de una hora de ausencia o reducción de jornada hasta los 9 meses del menor, acumulable en jornadas completas. Ejercicio por cualquiera de los progenitores.",
-        "guarda_legal": "Reducción de jornada por cuidado de menor de 12 años o persona con discapacidad, entre un octavo y la mitad de la jornada, con disminución proporcional del salario.",
-        "promocion_y_ascensos": "Se estará a lo dispuesto en el ALEH y normativa laboral vigente.",
-        "clasificacion_profesional": "Según el Acuerdo Laboral Estatal de Hostelería (ALEH).",
-        "retribucion": "",
-        "vacaciones": "31 días naturales, con posibilidad de disfrute en uno o dos periodos.",
-        "permisos_retribuidos": "Se estará a lo regulado en el convenio colectivo y en la normativa vigente.",
-        "permisos_no_retribuidos": "",
-        "permisos_especiales": "",
-        "excedencias_por_motivos_familiares": "Según lo previsto en el Estatuto de los Trabajadores.",
-        "excedencias_voluntarias": "Según lo previsto en el Estatuto de los Trabajadores.",
-        "traslados": "En traslados con cambio de residencia, la empresa abonará gastos de traslado, mudanza y dos primeros meses de alquiler.",
-        "maternidad_adopcion_acogimiento": "Derechos conforme a la legislación vigente.",
-        "embarazo": "Protección de la trabajadora embarazada, con adaptación del puesto o condiciones de trabajo en caso de riesgo.",
-        "reconocimiento_medico": "",
-        "no_discriminacion_diversidad": "Aplicación de la Ley Orgánica 3/2007 para la igualdad efectiva de mujeres y hombres.",
-        "formacion": "",
-        "violencia_de_genero": "Derechos de las trabajadoras víctimas de violencia de género: reducción o reordenación del tiempo de trabajo, movilidad geográfica, suspensión o extinción del contrato en los términos legales.",
-        "acoso_sexual_y_por_razon_de_sexo": "Las empresas deberán promover condiciones de trabajo que eviten el acoso sexual y por razón de sexo y establecer procedimientos específicos para su prevención y tratamiento."
+		"no_discriminacion_diversidad": "Compromiso de garantizar la igualdad de oportunidades entre hombres y mujeres, y de detectar situaciones de discriminación o desigualdad y desarrollar medidas correctoras.",
+		"acoso_sexual_y_por_razon_de_sexo": "Se evitarán conductas de naturaleza sexual o cualquier comportamiento que suponga discriminación, humillación o acoso, respetando la dignidad y libertad sexual de las personas trabajadoras.",
+		"violencia_de_genero": {
+		  "consulta_medica": "Derecho a ausentarse para asistencia médica o tratamiento psicológico en caso de violencia de género, cuando lo determinen los servicios sociales o de salud.",
+		  "ausencias_justificadas": "Las ausencias o faltas de puntualidad derivadas de la situación física o psicológica se considerarán justificadas y retribuidas.",
+		  "reduccion_jornada": "Derecho a reducción de jornada con disminución proporcional del salario.",
+		  "adaptacion_horario": "Posibilidad de reordenación del tiempo de trabajo mediante adaptación del horario u otras formas de organización, por acuerdo con la empresa."
+		}
       },
-      "prevision_social": {
+      "prev._social": {
         "incapacidad_temporal": "En caso de accidente de trabajo o enfermedad profesional, complemento hasta el 100% del salario desde el primer día de baja hasta el fin de la IT. En enfermedad común o accidente no laboral con hospitalización o intervención quirúrgica, también desde el primer día. En enfermedad común o accidente no laboral sin hospitalización, complemento hasta el 100% desde el día 60 de baja, siempre que el trabajador tenga más de 6 meses de antigüedad y no sea sustituido por contrato de interinidad.",
         "complementos_asistenciales": "Subsidio por defunción para trabajadores fijos, percibido por cónyuge o conviviente, hijos o familiares convivientes. Indemnización por vinculación al sector para trabajadores que se jubilen entre los 60 y 65 años, entre 2 y 7 meses de salario base más antigüedad según edad, incrementándose en un mes adicional por cada 5 años de servicio que excedan de 15.",
         "jubilacion": "Indemnización por jubilación anticipada entre los 60 y 65 años: 2 meses (64-65 años), 4 meses (63), 5 meses (62), 6 meses (61) y 7 meses (60), más antigüedad, con incrementos por años de servicio adicionales.",
-        "poliza_seguro": "Las empresas deberán concertar una póliza de seguro que cubra muerte por accidente e invalidez permanente total o absoluta, ocurridos durante la jornada de trabajo y hasta 2 horas antes o después. Beneficiarios: cónyuge o conviviente, hijos, padres y hermanos. En caso de incumplimiento, la empresa deberá abonar directamente la indemnización.",
+		"poliza_seguro": "Las empresas deberán concertar una póliza de seguro que cubra muerte por accidente e invalidez permanente total o absoluta, ocurridos durante la jornada de trabajo y hasta 2 horas antes o después, incluyendo accidentes derivados de la actividad laboral. Beneficiarios: cónyuge o conviviente, hijos, padres y hermanos. En caso de incumplimiento, la empresa deberá abonar directamente la indemnización.",
         "descuentos": "",
         "anticipos": "Derecho a anticipos a cuenta, hasta un máximo del 90% de los salarios efectivamente devengados."
       },
-      "derecho_sindical": {
-        "horas_sindicales": "Los miembros de Comités de Empresa o Delegados de Personal dispondrán de hasta 45 horas laborales al mes para funciones sindicales. Además, los trabajadores/as que ostenten cargos de responsabilidad en la Comisión Ejecutiva dispondrán de 30 horas laborales al mes, con un límite de dos trabajadores.",
+      "dcho._sindical": {
+        "horas_sindicales": "Los miembros de Comités de Empresa o Delegados de Personal dispondrán de hasta 45 horas laborales al mes para funciones sindicales (asistencia a reuniones, formación y gestión sindical). Además, los trabajadores/as que ostenten cargos de responsabilidad en la Comisión Ejecutiva dispondrán de 30 horas laborales al mes, con un límite de dos trabajadores.",
         "seccion_sindical": "",
         "formacion_sindical": "Las horas sindicales podrán utilizarse para la participación en seminarios, cursos o actividades formativas promovidas por las Centrales Sindicales.",
-        "tablon_local": "En empresas o centros de trabajo con 50 o más trabajadores/as se pondrá a disposición un local adecuado para actividades sindicales. Además, deberá existir tablón de anuncios en lugar visible y de fácil acceso, donde podrá exponerse información laboral o sindical."
+        "tablon_local": "En empresas o centros de trabajo con 50 o más trabajadores/as se pondrá a disposición un local adecuado para actividades sindicales. Además, deberá existir tablón de anuncios en lugar visible y de fácil acceso, donde podrá exponerse información laboral o sindical.",
+		"asamblea": "Derecho a la celebración de asambleas en los locales de la empresa, fuera de la jornada laboral, previa solicitud y con la debida antelación."
       },
       "salud_laboral": {
         "comision_paritaria_salud_laboral": "",
-        "comite_seguridad_y_salud": "La participación del personal en materia de prevención se realizará a través de los representantes legales, delegados/as de prevención y comités de seguridad y salud conforme a la Ley 31/1995. Se prevé la existencia de delegados/as de prevención, con funciones, competencias y facultades definidas legalmente, incluyendo formación y medios adecuados. Podrán existir delegados sectoriales con un crédito adicional de 30 horas.",
+        "comite_seguridad_y_salud": "La participación del personal en materia de prevención se realizará a través de los representantes legales, delegados/as de prevención y comités de seguridad y salud conforme a la Ley 31/1995. Se reconoce la figura de los delegados/as de prevención, con funciones, competencias y facultades definidas legalmente, incluyendo formación y medios adecuados. Podrán existir delegados sectoriales con un crédito adicional de 30 horas.",
         "reconocimiento_medico": "Las empresas garantizarán la vigilancia periódica del estado de salud del personal. Se realizarán reconocimientos médicos iniciales antes de la incorporación, periódicos en función del riesgo y, en todo caso, anuales. Se considerarán tiempo de trabajo efectivo y no supondrán coste para el trabajador.",
         "formacion_en_prl": "Las empresas proporcionarán a los delegados/as de prevención y al personal la formación necesaria en materia preventiva, por medios propios o mediante entidades especializadas.",
         "ropa_de_trabajo": "Las empresas están obligadas a proporcionar uniformes y ropa de trabajo o su compensación económica. La uniformidad incluirá al menos pantalón, camisa y calzado, con una duración de dos años para uniformes y un año para calzado.",
         "seguridad_y_salud_laboral": "En materia de seguridad y salud se estará a lo dispuesto en la Ley 31/1995 de Prevención de Riesgos Laborales, su reforma por la Ley 54/2003 y sus desarrollos reglamentarios, así como a lo establecido en el presente convenio.",
-        "rse_medio_ambiente": ""
+        "proteccion_personal_sensible": "Las empresas garantizarán la protección de trabajadores especialmente sensibles y de las trabajadoras embarazadas o en lactancia, mediante la adaptación del puesto, cambio de funciones o, en su caso, suspensión del contrato por riesgo.",
+		"rse_medio_ambiente": ""
       },
       "lgtbi": {
         "medidas_no_discriminacion": "",
@@ -302,7 +304,7 @@
       "pluses": {
         "antiguedad": "Incremento del 3% sobre el salario base al cumplir tres años en la empresa. Los derechos consolidados tienen carácter ad personam, no absorbible ni compensable.",
         "horas_extras": "Se limitan al mínimo indispensable. Se recargan con un 50% la primera hora semanal y un 75% el resto, o pueden compensarse con descanso. Se regula su cálculo y control.",
-        "nocturnidad": "Trabajo entre las 22:00 y las 6:00. Incremento del 25% sobre salario base más antigüedad si la jornada incluye más de 4 horas nocturnas.",
+        "nocturnidad": "Aplicable a establecimientos con actividad nocturna (pubs, discotecas, etc.). Trabajo entre las 22:00 y las 6:00. Incremento del 25% sobre salario base más antigüedad si la jornada incluye más de 4 horas nocturnas.",
         "festivo_trabajado": "",
         "pagas_extras": "Se establecen cuatro gratificaciones extraordinarias: dos de una mensualidad (junio y diciembre) y dos de 15 días (mayo y septiembre). Incluyen salario base y antigüedad.",
         "gratificaciones": "",
@@ -327,7 +329,8 @@
         "media_dieta": "",
         "pernoctacion": "",
         "comida": "",
-        "km": ""
+        "km": "",
+		"desgaste_de_herramientas": "Compensación extrasalarial cuando los útiles o herramientas sean propiedad del trabajador, según cuantías fijadas en tablas salariales."
       }
     },
     "contenido": "INTEGRADO"
