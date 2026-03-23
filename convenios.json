@@ -200,7 +200,7 @@
 	"publicacion": "04/10/2024",
 	"publicacion_diario": "BOP 192",
     "detalle": {
-      "normas_grales.": {
+      "normas_generales": {
         "denominacion": "Convenio Colectivo para el Sector de Hostelería de la Provincia de Córdoba",
 		"ambito_territorial": "Aplicación en toda la provincia de Córdoba, cualquiera que sea el domicilio social de la empresa.",
         "ambito_funcional": "Empresas, establecimientos, instalaciones y empresarios cuya actividad, permanente u ocasional, total o parcial, esté afectada por el ámbito funcional del Acuerdo Laboral Estatal de Hostelería. Incluye clubes sociales y deportivos y, si no hay impedimento legal, viviendas turísticas y apartamentos con servicios hosteleros.",
@@ -242,7 +242,7 @@
         "formacion_profesional": "La formación se reconoce como derecho de las personas trabajadoras y deber de las empresas. La Comisión Paritaria asume funciones en materia de formación. Los trabajadores con más de un año de antigüedad tendrán derecho a 20 horas anuales retribuidas de formación profesional para el empleo, acumulables por periodos de cinco años.",
         "clasificacion_profesional": "Según el Acuerdo Laboral Estatal de Hostelería (ALEH) vigente en cada momento."
       },
-	  "perm._y_exced.": {
+	  "permisos_excedencias": {
 		  "permisos_retribuidos":{
 			  "asuntos_propios": "1 día al año, para trabajadores con más de 6 meses de contratación en la empresa. Preaviso mínimo de 72 horas.",
 			  "matrimonio": "15 días naturales por matrimonio o pareja de hecho. 2 días por matrimonio de hijo, hermano, padre o madre (+2 días por desplazamiento).",
@@ -272,7 +272,7 @@
 		  "adaptacion_horario": "Posibilidad de reordenación del tiempo de trabajo mediante adaptación del horario u otras formas de organización, por acuerdo con la empresa."
 		}
       },
-      "prev._social": {
+      "prevision_social": {
         "incapacidad_temporal": "En caso de accidente de trabajo o enfermedad profesional, complemento hasta el 100% del salario desde el primer día de baja hasta el fin de la IT. En enfermedad común o accidente no laboral con hospitalización o intervención quirúrgica, también desde el primer día. En enfermedad común o accidente no laboral sin hospitalización, complemento hasta el 100% desde el día 60 de baja, siempre que el trabajador tenga más de 6 meses de antigüedad y no sea sustituido por contrato de interinidad.",
         "complementos_asistenciales": "Subsidio por defunción para trabajadores fijos, percibido por cónyuge o conviviente, hijos o familiares convivientes. Indemnización por vinculación al sector para trabajadores que se jubilen entre los 60 y 65 años, entre 2 y 7 meses de salario base más antigüedad según edad, incrementándose en un mes adicional por cada 5 años de servicio que excedan de 15.",
         "jubilacion": "Indemnización por jubilación anticipada entre los 60 y 65 años: 2 meses (64-65 años), 4 meses (63), 5 meses (62), 6 meses (61) y 7 meses (60), más antigüedad, con incrementos por años de servicio adicionales.",
@@ -280,7 +280,7 @@
         "descuentos": "",
         "anticipos": "Derecho a anticipos a cuenta, hasta un máximo del 90% de los salarios efectivamente devengados."
       },
-      "dcho._sindical": {
+      "derecho_sindical": {
         "horas_sindicales": "Los miembros de Comités de Empresa o Delegados de Personal dispondrán de hasta 45 horas laborales al mes para funciones sindicales (asistencia a reuniones, formación y gestión sindical). Además, los trabajadores/as que ostenten cargos de responsabilidad en la Comisión Ejecutiva dispondrán de 30 horas laborales al mes, con un límite de dos trabajadores.",
         "seccion_sindical": "",
         "formacion_sindical": "Las horas sindicales podrán utilizarse para la participación en seminarios, cursos o actividades formativas promovidas por las Centrales Sindicales.",

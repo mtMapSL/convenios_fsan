@@ -1,11 +1,12 @@
 document.addEventListener("DOMContentLoaded", async function () {
   const labels = {
-    normas_generales: "Normas generales",
+    normas_generales: "Normas grales.",
     jornada: "Jornada",
     empleo: "Empleo",
+	permisos_excedencias: "Perm. y exced.",
     igualdad: "Igualdad",
-    prevision_social: "Previsión social",
-    derecho_sindical: "Derecho sindical",
+    prevision_social: "Prev. social",
+    derecho_sindical: "Dcho. sindical",
     salud_laboral: "Salud laboral",
     lgtbi: "LGTBI",
     pluses: "Pluses",
