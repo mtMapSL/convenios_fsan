@@ -316,7 +316,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   
   if (btnDescargar) {
 	  if (convenio?.pdf && String(convenio.pdf).trim()) {
-		btnDescargar.href = `./pdf/${convenio.pdf}`;
+		btnDescargar.href = `./docs/${convenio.pdf}`;
 		btnDescargar.hidden = false;
 	  } else {
 		btnDescargar.hidden = true;
