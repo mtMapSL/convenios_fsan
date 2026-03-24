@@ -79,6 +79,8 @@ document.addEventListener("DOMContentLoaded", async function () {
   const tabsEl = document.getElementById("detalleTabs");
   const panelEl = document.getElementById("detallePanel");
   const provinciaSectorEl = document.getElementById("detalleProvinciaSector");
+  
+  const btnDescargar = document.getElementById("btnDescargar");
 
   function setText(id, value) {
     const el = document.getElementById(id);
@@ -311,6 +313,15 @@ document.addEventListener("DOMContentLoaded", async function () {
   }
 
   const convenio = conveniosData.find(item => item.codigo === codigo);
+  
+  if (btnDescargar) {
+	  if (convenio?.pdf && String(convenio.pdf).trim()) {
+		btnDescargar.href = `./pdf/${convenio.pdf}`;
+		btnDescargar.hidden = false;
+	  } else {
+		btnDescargar.hidden = true;
+	  }
+  }
 
   if (!convenio) {
     tituloEl.textContent = "Convenio no encontrado";

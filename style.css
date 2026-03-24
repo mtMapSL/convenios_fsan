@@ -618,6 +618,39 @@ h2 {
   text-decoration: underline;
 }
 
+.detalle-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.detalle-hero-acciones {
+  margin-top: 10px;
+}
+
+.btn-descargar {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 2px solid #d40000;
+  color: #d40000;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.btn-descargar:hover {
+  background: #d40000;
+  color: #fff;
+}
+
+.detalle-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
 /* Ajustes para móvil */
 @media (max-width: 600px) {
   .convenio-item {
@@ -648,4 +681,11 @@ h2 {
   .icono-accion {
     margin-left: 4px;
   }
+  
+  .detalle-topbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
 }
